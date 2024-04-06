@@ -14,4 +14,9 @@ public class Dogs extends Pets {
     protected Dogs(String name) throws DataFormatException {
         super(name);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " - собака.";
+    }
 }

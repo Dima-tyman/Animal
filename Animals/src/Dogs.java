@@ -15,8 +15,9 @@ public class Dogs extends Pets {
         super(name);
     }
 
+
     @Override
     public String toString() {
-        return super.toString() + " - собака.";
+        return super.toString() + " - собака";
     }
 }

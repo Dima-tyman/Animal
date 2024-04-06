@@ -14,4 +14,10 @@ public class Donkey extends Pack {
     protected Donkey(String name) throws DataFormatException {
         super(name);
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " - осёл";
+    }
 }

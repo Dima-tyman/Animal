@@ -14,4 +14,10 @@ public class Hamster extends Pets {
     protected Hamster(String name) throws DataFormatException {
         super(name);
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " - хомяк";
+    }
 }

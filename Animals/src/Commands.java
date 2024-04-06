@@ -1,3 +1,3 @@
 public enum Commands {
-    sit, down, tome, wait, speak
+    sit, down, tome, wait, speak;
 }

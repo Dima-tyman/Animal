@@ -14,4 +14,10 @@ public class Horse extends Pack {
     protected Horse(String name) throws DataFormatException {
         super(name);
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " - лошадь";
+    }
 }

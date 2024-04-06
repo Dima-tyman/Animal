@@ -14,4 +14,10 @@ public class Camel extends Pack {
     protected Camel(String name) throws DataFormatException {
         super(name);
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString() + " - верблюд";
+    }
 }

@@ -27,8 +27,10 @@ public abstract class Animal{
     }
 
 
-    protected void learnCommand(Commands[] commands) {
-        this.commands.addAll(Arrays.asList(commands));
+    protected void learnCommand(Commands commands) {
+        if (!this.commands.contains(commands)) {
+            this.commands.add(commands);
+        }
     }
 
     public int getAgeYear() {

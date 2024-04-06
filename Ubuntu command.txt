@@ -1,0 +1,133 @@
+  516  ip a
+  517  ls
+  518  cd home/
+  519  ls
+  520  cd /etc/apt/sources.list
+  521  cd /etc/apt/
+  522  ls
+  523  cat sources.list
+  524  cat sources.list.d
+  525  cd sources.list.d
+  526  ls
+  527  cat docker.list
+  528  cd
+  529  cd /etc/apt/
+  530  ls
+  531  cat sources.list.curtin.old
+  532  cat sources.list
+  533  ls
+  534  cd sources.list.d
+  535  ls
+  536  apt list
+  537  apt list mysq*
+  538  apt-get remove mysql-server
+  539  cd .
+  540  ls
+  541  cd ..
+  542  ls
+  543  nano sources.list
+  544  apt update
+  545  nano sources.list
+  546  apt update
+  547  nano sources.list
+  548  gpg --recv-keys 3A79BD29
+  549  gpg: requesting key 3A79BD29 from hkp server keys.gnupg.net
+  550  gpg: key 3A79BD29: "MySQL Release Engineering <mysql-build@oss.oracle.com>"
+  551  1 new user ID
+  552  gpg: key 3A79BD29: "MySQL Release Engineering <mysql-build@oss.oracle.com>"
+  553  53 new signatures
+  554  gpg: no ultimately trusted keys found
+  555  gpg: Total number processed: 1
+  556  gpg:           new user IDs: 1
+  557  gpg:         new signatures: 53
+  558  gpg --recv-keys 3A79BD29
+  559  cd
+  560  ls
+  561  nano mysql_pubkey.asc
+  562  gpg --import mysql_pubkey.asc
+  563  ls
+  564  apt-key add mysql_pubkey.asc
+  565  cd /etc/apt/sources.list.d
+  566  ls
+  567  nano mysql.list
+  568  apt-get update
+  569  apt-get install mysql-server
+  570  dpkg -i mysql-client.deb
+  571  dpkg -i mysql-client
+  572  dpkg -i mysql-client.deb
+  573  cd
+  574  dpkg -i mysql-client.deb
+  575  ip a
+  576  cd /home
+  577  ls
+  578  pscp
+  579  apt list ps*
+  580  apt list putt*
+  581  apt insall putty
+  582  apt install putty
+  583  cd
+  584  cat
+  585  ls
+  586  cat Домашние животные
+  587  cat > "Домашние животные"
+  588  ls
+  589  cat Домашние\ животные
+  590  rd Домашние\ животные
+  591  rm Домашние\ животные
+  592  ls
+  593  cat > Домашние животные
+  594  cat > 'Домашние животные'
+  595  ды
+  596  ls
+  597  ды
+  598  rm Домашние
+  599  ls
+  600  cat Домашние\ животные
+  601  rm Д
+  602  rm Домашние\ животные
+  603  cat > 'Домашние животные'
+  604  cat Домашние\ животные
+  605  cat > 'Вьючные животные'
+  606  cat Вьючные\ животные
+  607  cat Домашние\ животные > Вьючные\ животные
+  608  cat Вьючные\ животные
+  609  cat Домашние\ животные
+  610  cat > 'Вьючные животные'
+  611  cat Вьючные\ животные
+  612  cat Домашние\ животные >> Вьючные\ животные
+  613  cat Вьючные\ животные
+  614  mv Вьючные\ животные 'Друзья человека'
+  615  ls
+  616  cat Друзья\ человека
+  617  mkdir pets
+  618  ls
+  619  mv Друзья\ человека pets/
+  620  ls
+  621  cd pets/
+  622  ls
+  623  cat Друзья\ человека
+  624  apt
+  625  apt list mysq*
+  626  apt download https://dev.mysql.com/downloads/file/?id=524196
+  627  apt download https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb
+  628  apt-get download https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb
+  629  св
+  630  cd
+  631  ls
+  632  cd home/
+  633  ls
+  634  cd ..
+  635  cd /home
+  636  ls
+  637  cd dima/
+  638  ls
+  639  wget https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb
+  640  ls
+  641  dpkg -i mysql-apt-config_0.8.29-1_all.deb
+  642  dpkg
+  643  dpkg help
+  644  dpkg --help
+  645  dpkg -l
+  646  dpkg --help
+  647  dpkg -r mysql-server
+  648  history
